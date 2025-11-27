@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+  <style>
+  #galeria img {
+    width: 300px;   /* ancho fijo */
+    height: auto;   /* mantiene proporción */
+    margin: 10px;   /* espacio entre imágenes */
+    border-radius: 5px; /* esquinas redondeadas opcional */
+  }
+
+  #galeria .obras {
+    display: flex;
+    flex-wrap: wrap;   /* que se acomoden en varias filas */
+    justify-content: center; /* centradas */
+  }
+</style>
+
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Isaac Casanova — Portafolio de artista</title>
